@@ -1,15 +1,7 @@
-![Trí Nguyễn · thekivashyn. A signal trace pauses, then picks up again.](./assets/signal.svg)
+![Trí Nguyễn · @thekivashyn. Một vành trăng mỏng trên nền trời đêm.](./assets/nightfall.svg)
 
-I’m Trí, a developer in Vietnam. A question I like working on is what an app can still know after a connection drops. That question made its way into my Rust event engine.
+Chào, mình là Trí. Mình hay viết phần mềm vì một câu hỏi khá đơn giản: “Cái này tự làm thì sao nhỉ?” Có hôm là một ứng dụng mình muốn dùng. Có hôm là một con game nhỏ, làm tới lúc chơi được rồi vẫn ngồi chỉnh cảm giác bấm.
 
-### tiktok-live-rust
+Mình muốn tập thói quen để lại thứ gì đó cho người đến sau. Một món tool bạn có thể lấy về sửa theo ý mình. Vài dòng kể lại cái lỗi đã ngốn của mình cả buổi, để lần tới ai tìm đúng câu hỏi đó thì còn có cái mà đọc.
 
-An unofficial engine for reading TikTok LIVE events. A chat message comes out as one line of JSON. If the connection drops halfway through a gift combo, the engine can report the missing count as `null`. The app on the other end gets to know where the gap is.
-
-[Explore the source](https://github.com/thekivashyn/tiktok-live-rust) · [Run the offline demo](https://github.com/thekivashyn/tiktok-live-rust#try-it-without-a-live-room)
-
-### Gửi người đến sau
-
-Mình muốn chia sẻ nhiều hơn những thứ từng khiến mình ngồi gỡ hàng giờ. Có khi chỉ là một đoạn code nhỏ, một ví dụ chạy được, hay vài dòng ghi lại vì sao một cách làm bị hỏng. Nếu nó giúp bạn bớt một buổi mò mẫm, mình có lý do để viết tiếp.
-
-Nếu bạn dùng thử engine và gặp một event lạ, mình muốn xem ví dụ nhỏ nhất tái hiện được nó. [Mở issue ở đây ↗](https://github.com/thekivashyn/tiktok-live-rust/issues)
+[Các repo công khai ↗](https://github.com/thekivashyn?tab=repositories)
