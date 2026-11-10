@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="256" viewBox="0 0 960 256" role="img" aria-labelledby="title desc">
+  <title id="title">Trí Nguyễn · thekivashyn</title>
+  <desc id="desc">A pale green oscilloscope trace crosses a dark grid, disappearing for a moment before resuming.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#24312f" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade">
+      <stop stop-color="#0c1515"/>
+      <stop offset="1" stop-color="#0c1515" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="256" rx="12" fill="#0c1515"/>
+  <rect x="410" y="16" width="526" height="224" fill="url(#grid)"/>
+  <rect x="410" y="16" width="120" height="224" fill="url(#fade)"/>
+  <text x="44" y="84" fill="#a3c8b8" font-family="monospace" font-size="20" letter-spacing="2">@thekivashyn</text>
+  <text x="40" y="156" fill="#edf4eb" font-family="Georgia,serif" font-size="72">Trí Nguyễn</text>
+  <path d="M486 134h29l5-7 6 15 6-37 7 56 6-29 8 2h26l6-14 6 22 5-8h23l5-6 6 11 5-5h9 M759 134h23l7-10 6 18 6-42 8 64 7-32 6 2h30l6-8 5 15 5-7h38" fill="none" stroke="#90e9b6" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <g stroke="#c99f6a" fill="none" stroke-width="1.5">
+    <circle cx="644" cy="134" r="4"/><circle cx="759" cy="134" r="4"/>
+    <path d="M649 160v5h105v-5"/>
+  </g>
+  <text x="701" y="190" text-anchor="middle" font-family="monospace" font-size="14" letter-spacing="1.5" fill="#d9b788">unknown</text>
+</svg>
