@@ -1,7 +1,11 @@
-![Trí Nguyễn · @thekivashyn. Một vành trăng mỏng trên nền trời đêm.](./assets/nightfall.svg)
+![Trí Nguyễn · @thekivashyn. A thin crescent above a dark horizon.](./assets/nightfall.svg)
 
-Chào, mình là Trí. Mình hay viết phần mềm vì một câu hỏi khá đơn giản: “Cái này tự làm thì sao nhỉ?” Có hôm là một ứng dụng mình muốn dùng. Có hôm là một con game nhỏ, làm tới lúc chơi được rồi vẫn ngồi chỉnh cảm giác bấm.
+I’m Trí, a developer from Vietnam. One of my browser games has a tram that crosses town while the players take their turns. The tram has nothing to do with the dice. I just wanted the place to feel lived in.
 
-Mình muốn tập thói quen để lại thứ gì đó cho người đến sau. Một món tool bạn có thể lấy về sửa theo ý mình. Vài dòng kể lại cái lỗi đã ngốn của mình cả buổi, để lần tới ai tìm đúng câu hỏi đó thì còn có cái mà đọc.
+I build mobile apps, the APIs behind them, and the tools people use to run them. On a map, a pin takes one tap to open. Behind that tap there’s a database, an API, and a moderation screen where someone can correct the place you’re looking at. I like working on all three.
 
-[Các repo công khai ↗](https://github.com/thekivashyn?tab=repositories)
+### What I want to leave here
+
+I want to share more of the things I wish I’d found when I started: a small tool you can take apart, an example you can actually run, or the search result I needed three hours into debugging. If you borrow a piece of my code and turn it into something I’d never have thought of, I’d love to see it.
+
+[Explore my public work ↗](https://github.com/thekivashyn?tab=repositories)
