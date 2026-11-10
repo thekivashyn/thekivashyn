@@ -6,6 +6,8 @@ I build mobile apps, the APIs behind them, and the tools people use to run them.
 
 ### What I want to leave here
 
-I want to share more of the things I wish I’d found when I started: a small tool you can take apart, an example you can actually run, or the search result I needed three hours into debugging. If you borrow a piece of my code and turn it into something I’d never have thought of, I’d love to see it.
+I want to share more of the things I wish I’d found when I started: a small tool you can take apart, an example you can actually run, or the search result I needed three hours into debugging.
 
 [Explore my public work ↗](https://github.com/thekivashyn?tab=repositories&q=&type=public&language=&sort=)
+
+Built something with my code? Tag me on X [@tringuyenvnn](https://x.com/tringuyenvnn). I’d love to see what you made.
