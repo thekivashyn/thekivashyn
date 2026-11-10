@@ -8,4 +8,4 @@ I build mobile apps, the APIs behind them, and the tools people use to run them.
 
 I want to share more of the things I wish I’d found when I started: a small tool you can take apart, an example you can actually run, or the search result I needed three hours into debugging. If you borrow a piece of my code and turn it into something I’d never have thought of, I’d love to see it.
 
-[Explore my public work ↗](https://github.com/thekivashyn?tab=repositories)
+[Explore my public work ↗](https://github.com/thekivashyn?tab=repositories&q=&type=public&language=&sort=)
