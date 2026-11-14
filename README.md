@@ -1,6 +1,6 @@
-![Trí Nguyễn · @thekivashyn. Founder of Gióng, CTO at The Green Zone.ai. A thin crescent above a dark horizon.](./assets/nightfall.svg)
+![Trí Nguyễn · @thekivashyn. Founder of Gióng, CTO at GreenZone.ai. A thin crescent above a dark horizon.](./assets/nightfall.svg)
 
-I’m Trí, a developer from Vietnam. I’m the founder of [Gióng](https://giong.run), an async runtime for Rust, and the CTO of The Green Zone.ai, an AI company in Australia.
+I’m Trí, a developer from Vietnam. I’m the founder of [Gióng](https://giong.run), an async runtime for Rust, and the CTO of [GreenZone.ai](https://www.thegreenzone.ai), an AI company in Australia.
 
 ### Gióng
 

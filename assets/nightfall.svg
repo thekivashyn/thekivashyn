@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 264" width="960" height="264" role="img" aria-labelledby="title desc">
   <title id="title">Trí Nguyễn · @thekivashyn</title>
-  <desc id="desc">Founder of Gióng, CTO at The Green Zone.ai. An ivory crescent rises above a dark violet horizon.</desc>
+  <desc id="desc">Founder of Gióng, CTO at GreenZone.ai. An ivory crescent rises above a dark violet horizon.</desc>
   <style>
     @media (prefers-reduced-motion: no-preference) {
       .star { animation: twinkle 5s ease-in-out infinite; }
@@ -43,6 +43,6 @@
     <text x="50" y="118" fill="#f4eee7" font-family="Georgia, 'Times New Roman', serif" font-size="77" letter-spacing="-2">Trí Nguyễn</text>
     <text x="54" y="158" fill="#c9bccd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing="2">@thekivashyn</text>
     <rect x="54" y="184" width="34" height="2" rx="1" fill="#e3b9ab"/>
-    <text x="54" y="216" fill="#f4eee7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing=".6">Founder of <tspan fill="#ffb48f">Gióng</tspan> <tspan fill="#8f819a">/</tspan> CTO at <tspan fill="#ffb48f">The Green Zone.ai</tspan></text>
+    <text x="54" y="216" fill="#f4eee7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing=".6">Founder of <tspan fill="#ffb48f">Gióng</tspan> <tspan fill="#8f819a">/</tspan> CTO at <tspan fill="#ffb48f">GreenZone.ai</tspan></text>
   </g>
 </svg>
