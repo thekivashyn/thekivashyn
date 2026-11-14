@@ -1,6 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 264" width="960" height="264" role="img" aria-labelledby="title desc">
   <title id="title">Trí Nguyễn · @thekivashyn</title>
-  <desc id="desc">An ivory crescent rises above a dark violet horizon.</desc>
+  <desc id="desc">Founder of Gióng, CTO at The Green Zone.ai. An ivory crescent rises above a dark violet horizon.</desc>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .star { animation: twinkle 5s ease-in-out infinite; }
+      .star:nth-child(2n) { animation-delay: -1.7s; animation-duration: 6.5s; }
+      .star:nth-child(3n) { animation-delay: -3.1s; animation-duration: 4.2s; }
+      .halo { animation: breathe 9s ease-in-out infinite; transform-origin: 759px 137px; }
+    }
+    @keyframes twinkle { 0%, 100% { opacity: 1 } 50% { opacity: .25 } }
+    @keyframes breathe { 0%, 100% { opacity: .82; transform: scale(1) } 50% { opacity: 1; transform: scale(1.05) } }
+  </style>
   <defs>
     <linearGradient id="sky" x2="1" y2="0" gradientUnits="objectBoundingBox">
       <stop stop-color="#14121e"/><stop offset="1" stop-color="#242038"/>
@@ -19,9 +29,9 @@
   </defs>
   <g clip-path="url(#frame)">
     <rect width="960" height="264" fill="url(#sky)"/>
-    <circle cx="759" cy="137" r="172" fill="url(#halo)"/>
+    <circle class="halo" cx="759" cy="137" r="172" fill="url(#halo)"/>
     <g fill="#daceda">
-      <circle cx="599" cy="46" r="1.2"/><circle cx="632" cy="103" r=".8"/><circle cx="868" cy="47" r=".9"/><circle cx="904" cy="89" r="1.3"/>
+      <circle class="star" cx="599" cy="46" r="1.2"/><circle class="star" cx="632" cy="103" r=".8"/><circle class="star" cx="868" cy="47" r=".9"/><circle class="star" cx="904" cy="89" r="1.3"/><circle class="star" cx="538" cy="78" r=".8"/><circle class="star" cx="668" cy="30" r=".9"/><circle class="star" cx="930" cy="150" r=".8"/><circle class="star" cx="470" cy="38" r="1"/>
     </g>
     <circle cx="749" cy="142" r="89" fill="#252033"/>
     <circle cx="749" cy="142" r="89" fill="url(#rim)" mask="url(#crescent)"/>
@@ -30,7 +40,9 @@
       <path d="M504 264 Q623 213 728 239T960 206V264" fill="#1c1928" stroke="#413647"/>
       <path d="M615 264 Q683 240 775 253T960 231V264" fill="#15131e" stroke="#342b3a"/>
     </g>
-    <text x="50" y="142" fill="#f4eee7" font-family="Georgia, 'Times New Roman', serif" font-size="77" letter-spacing="-2">Trí Nguyễn</text>
-    <text x="54" y="184" fill="#c9bccd" font-family="monospace" font-size="19" letter-spacing="2">@thekivashyn</text>
+    <text x="50" y="118" fill="#f4eee7" font-family="Georgia, 'Times New Roman', serif" font-size="77" letter-spacing="-2">Trí Nguyễn</text>
+    <text x="54" y="158" fill="#c9bccd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" letter-spacing="2">@thekivashyn</text>
+    <rect x="54" y="184" width="34" height="2" rx="1" fill="#e3b9ab"/>
+    <text x="54" y="216" fill="#f4eee7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing=".6">Founder of <tspan fill="#ffb48f">Gióng</tspan> <tspan fill="#8f819a">/</tspan> CTO at <tspan fill="#ffb48f">The Green Zone.ai</tspan></text>
   </g>
 </svg>
