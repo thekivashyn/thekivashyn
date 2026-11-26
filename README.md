@@ -4,20 +4,20 @@ I’m Trí, a developer from Vietnam. I’m the founder of [Gióng](https://gion
 
 ### Gióng
 
-[![giong 1.5.0. One syscall per tick, not per operation. 14 crates on crates.io, about 0.03 system calls per request, HTTPS at 146.6k requests/s on one core against 81.2k for Axum, and 0 failed requests over 100 reloads in giong dev.](./assets/giong.svg)](https://giong.run)
+[![giong 1.5.1. One syscall per tick, not per operation. 14 crates on crates.io, about 0.03 system calls per request, HTTPS at 146.6k requests/s on one core against 81.2k for Axum, and 0 failed requests over 100 reloads in giong dev.](./assets/giong.svg)](https://giong.run)
 
 In Vietnamese legend, Thánh Gióng lay silent for three years, then rose a giant the day his country called. The runtime carries his name because it does the same: it costs next to nothing while idle and uses every core the moment load arrives.
 
-Gióng is a thread-per-core async runtime for Rust services. It is built on io_uring on Linux, falls back to epoll wherever io_uring is blocked, and also runs on macOS (kqueue) and, for the runtime crate, on Windows (I/O completion ports). It brings its own HTTP/1.1, HTTP/2 and HTTP/3 server and client, TLS, gRPC, QUIC, PostgreSQL, MySQL and Redis clients, a web framework and an MCP server, so a whole service runs on it with no Tokio underneath.
+Gióng is a thread-per-core async runtime for Rust services. It is built on io_uring on Linux, falls back to epoll wherever io_uring is blocked, and runs every crate on macOS (kqueue) and Windows (I/O completion ports) too. It brings its own HTTP/1.1, HTTP/2 and HTTP/3 server and client, TLS, gRPC, QUIC, PostgreSQL, MySQL and Redis clients, a web framework and an MCP server, so a whole service runs on it with no Tokio underneath.
 
 - **About 0.03 system calls per request.** A server built on epoll needs 2.
 - **Measured against the Tokio crates it replaces**, one core each: HTTPS at 146.6k requests/s against 81.2k for Axum, PostgreSQL at 3.3 times tokio-postgres with a pool, MySQL at 5.1 times SQLx.
-- **A developer kit in one command.** `giong new` writes a service that builds and passes its tests from the first minute. `giong dev` rebuilds on every save and swaps the new build in without dropping a request: 0 failed out of 102,061 over 100 reloads under load. `giong doctor`, `giong ai init`, a dashboard, OpenAPI and request recording cover the rest.
+- **A developer kit in one command.** `giong new` writes a service that builds, passes its tests and serves from the first minute, on SQLite by default, so there is nothing to install or start. `giong dev` rebuilds on every save and swaps the new build in without dropping a request: 0 failed out of 102,061 over 100 reloads under load. `giong upgrade`, `giong doctor`, `giong ai init`, a dashboard, OpenAPI and request recording cover the rest.
 - **Made for the agents that write your code.** Every error has a stable code, the cause and the fix, and `giong mcp` hands the whole kit to your coding agent as tools.
 
 ```sh
 curl -fsSL https://giong.run/install.sh | sh    # or: cargo install giong-cli --locked
-giong new api --db postgres
+giong new api
 cd api && giong dev
 ```
 
@@ -45,9 +45,9 @@ fn main() -> std::io::Result<()> {
 }
 ```
 
-Gióng 1.5.0 is the current release. The API has been frozen since 1.0, and every 1.x release only adds: 1.1 brought gRPC, 1.2 macOS, 1.3 HTTP/3 and QUIC, 1.4 Windows, and 1.5 the developer kit. Each number above has its method and raw data [in the repository](https://github.com/giong-run/Giong#benchmarks), next to the cases where Gióng is not ahead.
+Gióng 1.5.1 is the current release. The API has been frozen since 1.0, and every 1.x release only adds: 1.1 brought gRPC, 1.2 macOS, 1.3 HTTP/3 and QUIC, 1.4 Windows, 1.5 the developer kit and every crate on Windows, and 1.5.1 SQLite projects, `giong upgrade` and Unix sockets on Windows. Each number above has its method and raw data [in the repository](https://github.com/giong-run/Giong#benchmarks), next to the cases where Gióng is not ahead.
 
-[giong.run ↗](https://giong.run) · [Source ↗](https://github.com/giong-run/Giong) · [Release 1.5.0 ↗](https://github.com/giong-run/Giong/releases/tag/v1.5.0) · [crates.io ↗](https://crates.io/crates/giong) · [Roadmap ↗](https://giong.run/roadmap/)
+[giong.run ↗](https://giong.run) · [Source ↗](https://github.com/giong-run/Giong) · [Release 1.5.1 ↗](https://github.com/giong-run/Giong/releases/tag/v1.5.1) · [crates.io ↗](https://crates.io/crates/giong) · [Roadmap ↗](https://giong.run/roadmap/)
 
 ### Apps and small worlds
 
