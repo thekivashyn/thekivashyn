@@ -4,7 +4,7 @@ I’m Trí, a developer from Vietnam. I’m the founder of [Gióng](https://gion
 
 ### Gióng
 
-[![giong 1.5.4. One syscall per tick, not per operation. 14 crates on crates.io, about 0.03 system calls per request, HTTPS at 146.6k requests/s on one core against 81.2k for Axum, and 0 failed requests over 100 reloads in giong dev.](./assets/giong.svg)](https://giong.run)
+[![giong 1.5.5. One syscall per tick, not per operation. 14 crates on crates.io, about 0.03 system calls per request, HTTPS at 146.6k requests/s on one core against 81.2k for Axum, and 0 failed requests over 100 reloads in giong dev.](./assets/giong.svg)](https://giong.run)
 
 In Vietnamese legend, Thánh Gióng lay silent for three years, then rose a giant the day his country called. The runtime carries his name because it does the same: it costs next to nothing while idle and uses every core the moment load arrives.
 
@@ -45,9 +45,9 @@ fn main() -> std::io::Result<()> {
 }
 ```
 
-Gióng 1.5.4 is the current release. The API has been frozen since 1.0, and every 1.x release only adds: 1.1 brought gRPC, 1.2 macOS, 1.3 HTTP/3 and QUIC, 1.4 Windows, 1.5 the developer kit and every crate on Windows, 1.5.1 SQLite projects, `giong upgrade` and Unix sockets on Windows, 1.5.2 leaner connections (an idle TLS connection holds 5.2 KiB instead of 10.8), 1.5.3 leaner HTTP/2 (an idle HTTP/2 connection over TLS holds 6.2 KiB instead of 9.5) and release binaries with signed build provenance and an SBOM, and 1.5.4 `fs::Root` for paths that must stay inside a directory, database passwords wiped from memory, and 31% less CPU per gzipped response with giong-web's `fast-gzip`. Each number above has its method and raw data [in the repository](https://github.com/giong-run/Giong#benchmarks), next to the cases where Gióng is not ahead.
+Gióng 1.5.5 is the current release. The API has been frozen since 1.0, and every 1.x release only adds: 1.1 brought gRPC, 1.2 macOS, 1.3 HTTP/3 and QUIC, 1.4 Windows, 1.5 the developer kit and every crate on Windows, 1.5.1 SQLite projects, `giong upgrade` and Unix sockets on Windows, 1.5.2 leaner connections (an idle TLS connection holds 5.2 KiB instead of 10.8), 1.5.3 leaner HTTP/2 (an idle HTTP/2 connection over TLS holds 6.2 KiB instead of 9.5) and release binaries with signed build provenance and an SBOM, 1.5.4 `fs::Root` for paths that must stay inside a directory, database passwords wiped from memory, and 31% less CPU per gzipped response with giong-web's `fast-gzip`, and 1.5.5 a build store that keeps one copy of each dependency build for all projects (four projects: 401.3 MiB instead of 645.8). Each number above has its method and raw data [in the repository](https://github.com/giong-run/Giong#benchmarks), next to the cases where Gióng is not ahead.
 
-[giong.run ↗](https://giong.run) · [Source ↗](https://github.com/giong-run/Giong) · [Release 1.5.4 ↗](https://github.com/giong-run/Giong/releases/tag/v1.5.4) · [crates.io ↗](https://crates.io/crates/giong) · [Roadmap ↗](https://giong.run/roadmap/)
+[giong.run ↗](https://giong.run) · [Source ↗](https://github.com/giong-run/Giong) · [Release 1.5.5 ↗](https://github.com/giong-run/Giong/releases/tag/v1.5.5) · [crates.io ↗](https://crates.io/crates/giong) · [Roadmap ↗](https://giong.run/roadmap/)
 
 ### Apps and small worlds
 
